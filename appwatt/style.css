@@ -145,7 +145,8 @@ body {
 }
 
 #watts,
-#hours {
+#hours,
+#kwh {
     border: none;
     /* margin-left: 25px; */
     text-align: center;

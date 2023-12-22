@@ -18,6 +18,7 @@ calculButton.addEventListener('click', () => {
     //calcul du cout en euros
     const coutEnEuros = kWh * kwhInput.value;
 
+
     //Appel et affichage du résultat
     resultatElement.textContent = "Resultat : " + kWh.toFixed(2) + " kWh"
     costElement.textContent = "Cout en euros : " + coutEnEuros.toFixed(2) + "€";
